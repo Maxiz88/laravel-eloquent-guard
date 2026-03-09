@@ -22,8 +22,11 @@
     },
     "require": {
         "php": "^8.2",
-        "illuminate/support": "^10.0|^11.0|^12.0"
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/database": "^10.0|^11.0|^12.0",
+        "illuminate/contracts": "^10.0|^11.0|^12.0"
     },
+
     "require-dev": {
         "laravel/pulse": "^1.0",
         "livewire/livewire": "^3.0",
@@ -31,7 +34,9 @@
         "phpunit/phpunit": "^12.5"
     },
     "suggest": {
-        "laravel/pulse": "Required to see beautiful dashboards in Pulse.",
-        "livewire/livewire": "Required for the Pulse dashboard components."
+        "laravel/pulse": "Required to use the dashboard monitoring card (^1.0).",
+        "sentry/sentry-laravel": "Required to use the SentryReporter (^3.0|^4.0).",
+        "livewire/livewire": "Required for the Pulse dashboard components (^3.0)."
     }
+
 }
