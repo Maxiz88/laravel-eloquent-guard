@@ -1,7 +1,7 @@
 # Eloquent Guard for Laravel 🛡️
 
-[![Latest Version on Packagist](https://img.shields.io)](https://packagist.org)
-[![Total Downloads](https://img.shields.io)](https://packagist.org)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/maxis/eloquent-guard)](https://packagist.org)
+[![Total Downloads](https://img.shields.io/packagist/dt/maxis/eloquent-guard)](https://packagist.org)
 
 **Eloquent Guard** is a lightweight, production-ready runtime performance monitor for Laravel. It detects N+1 queries and slow database operations as they happen, helping you keep your application fast and efficient.
 
