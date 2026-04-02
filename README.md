@@ -66,9 +66,9 @@ Enable or disable notification channels by adding/removing classes from the repo
 ```php
 'reporters' => [
     \Maxis\EloquentGuard\Reporters\LogReporter::class,      // Standard Laravel Logs
-    \Maxis\EloquentGuard\Reporters\SlackReporter::class,    // Slack Webhooks (Queue supported)
-    \Maxis\EloquentGuard\Reporters\TelegramReporter::class, // Telegram Bot API
-    \Maxis\EloquentGuard\Reporters\SentryReporter::class,   // Sentry Issue Tracking
+    \Maxis\EloquentGuard\Reporters\SlackReporter::class,    // Slack Webhooks (Queue Worker Required)
+    \Maxis\EloquentGuard\Reporters\TelegramReporter::class, // Telegram Bot API (Queue Worker Required)
+    \Maxis\EloquentGuard\Reporters\SentryReporter::class,   // Sentry Issue Tracking (Queue Worker Required)
 ],
 ```
 #### Ignored Tables
